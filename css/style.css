@@ -1,0 +1,125 @@
+@import url(config_global.css);
+
+body {
+    font-family: 'Mask', sans-serif;
+    /* letter-spacing: .75px; */
+}
+
+.main {
+    background: var(--color-primary);
+    height: 100vh;
+    width: 100vw;
+}
+
+.icon,
+.main {
+    display: grid;
+    place-items: center;
+}
+
+.content {
+    position: relative;
+    width: min(100%, 40rem);
+    height: 65rem;
+    
+    display: flex;
+    align-items: flex-end;
+}
+
+.content-img {
+    position: absolute;
+    top: 0;
+    right: 8.5rem;
+}
+
+.img {
+    height: 22rem;
+}
+
+.card,
+.button,
+.icon-heater { 
+    box-shadow: 4px 4px 16px rgba(33, 31, 32, 0.5);
+    color: var(--color-primary);
+    border-radius: 40px;
+    font-size: 2rem;
+}
+
+.card {
+    background: var(--color-secondary);
+    height: 55rem;
+    width: 100%;
+    padding: 12.5rem 0 6.2rem;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.content-text { 
+    text-align: center;
+}
+
+.name {
+    font-weight: bold;
+    font-size: 2.4rem;
+    margin-bottom: 0.7rem;
+}
+
+.icons {
+    width: 18rem;
+    margin: -2rem 0 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon {
+    background: var(--color-primary);
+    height: 4rem;
+    width: 4rem;
+    border-radius: 50%;
+}
+
+.icon img {
+    height: 2.25rem;
+}
+
+.icon:hover {
+    transition: .5s ease;
+    background: transparent;
+}
+
+.icon-pr {
+    padding-right: .1rem;
+}
+
+.icon-heater {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 0 2.5rem 3.5rem 0;
+}
+
+.button {
+    background: var(--color-tertiary);
+    font-weight: 600;
+
+    cursor: pointer;
+    width: 27.4rem;
+    height: 6rem;
+}
+
+.button:hover {
+    transition: background .3s ease-in-out;
+    background: transparent;
+    border: 4px solid var(--color-tertiary);
+}
+
+.text-16 {
+    font-size: 1.6rem;
+}
+
+.mb-10px {
+    margin-bottom: 1rem;
+}

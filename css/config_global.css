@@ -1,0 +1,65 @@
+:root {
+    --color-primary: #E2F9FC;
+    --color-secondary: #323031;
+    --color-tertiary: #FE3044;
+}
+
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Mask';
+    src: url(../font/Mosk_Medium.ttf) format("truetype"),
+      url(../font/Mosk_Semi-Bold.ttf) format("truetype"),
+      url(../font/Mosk_Bold.ttf) format("truetype");
+}
+
+html {
+    font-size: 10px;
+}
+
+@media (min-width: 2560px) {
+    html {
+      font-size: 25px;
+    }
+}
+
+@media (max-width: 1600px) {
+    html {
+      font-size: 9.25px;
+    }
+}
+
+@media (max-width: 1280px) {
+    html {
+      font-size: 9px;
+    }
+}
+
+@media (max-width: 1024px) {
+    html {
+      font-size: 8.75px;
+    }
+}
+
+@media (max-width: 768px) {
+    html {
+      font-size: 8.25px;
+    }
+}
+
+@media (max-width: 500px) {
+    html {
+      font-size: 8px;
+    }
+}
+
+@media (max-width: 350px) {
+  html {
+    font-size: 6.5px;
+  }
+}
