@@ -13,9 +13,19 @@
 
 @font-face {
     font-family: 'Mask';
-    src: url(../font/Mosk_Medium.ttf) format("truetype"),
-      url(../font/Mosk_Semi-Bold.ttf) format("truetype"),
-      url(../font/Mosk_Bold.ttf) format("truetype");
+    src: url(../font/Mosk_Medium.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: 'Mask';
+    src: url(../font/Mosk_Semi-Bold.ttf) format("truetype");
+    font-weight: 600;
+}
+
+@font-face {
+  font-family: 'Mask';
+  src: url(../font/Mosk_Bold.ttf) format("truetype");
+  font-weight: 700;
 }
 
 html {
